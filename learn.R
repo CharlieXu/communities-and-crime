@@ -3,6 +3,8 @@ library(caret)
 library(rattle)
 library(rpart)
 
+set.seed(4)
+
 cac <- read.csv('cac.csv')
 
 train.index <- createDataPartition(cac$ViolentCrimesPerPop, p=0.8, list=FALSE)
