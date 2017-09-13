@@ -25,4 +25,6 @@ In any case, RMSE of prediction can substantially beat out predicting the mean.
 I say "can" because the performance can vary drastically based on the value of
 the random number generator seed, something which concerns me and which I am
 looking into.  There will also be a nicely formatted diagram of the tree left
-behind as `tree.png` for the viewer's convenience.
+behind as `tree.png` for the viewer's convenience. (It appears to be possible
+to get even more out of the data by way of R's randomForest package but then
+you wouldn't have the nice diagram, would you?)
