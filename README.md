@@ -21,9 +21,9 @@ an `explore.R` in here and that's what I used to confirm this is the case; you
 don't need it to produce results. The latter will actually carry out the
 learning process on the transformed data, which predicts number of violent
 crimes per 100K persons in a community from a number of predictive variables.
-In any case, RMSE of prediction beats out predicting the mean. It doesn't
-account for most of the variance but there is probably a lot of regional
-variability anyway. There will also be a nicely formatted diagram of the tree
-left behind as `tree.png` for the viewer's convenience. (It appears to be
-possible to get even more out of the data by way of R's randomForest package
-but then you wouldn't have the nice diagram, would you?)
+In any case, RMSE of prediction beats out predicting the mean. Admittedly,
+though, it doesn't account for most of the variance but there is probably a lot
+of regional variability anyway. There will also be a nicely formatted diagram
+of the tree left behind as `tree.png` for the viewer's convenience. (It appears
+to be possible to get even more out of the data by way of R's randomForest
+package but then you wouldn't have the nice diagram, would you?)
